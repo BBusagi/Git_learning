@@ -16,15 +16,15 @@ Untracked，Unmodify，Modified，Staged
 由于窗口显示有限，持续按回车显示所有历史记录
 
 ### 变量设置
-git config -l
-git config --system -l
+git config -l  
+git config --system -l  
 path:git/MINGW64/etc/gitconfig
 
-git config --global -l
-path:C:\Users\BBRabbit\gitconfig
-Setting: 
-git config --global user.name "[name]"
-git config --global user.email "[email]"
+git config --global -l  
+path:C:\Users\BBRabbit\gitconfig  
+Setting:  
+git config --global user.name "[name]"  
+git config --global user.email "[email]"  
 
 ### 删除指令
 git branch -a  
@@ -33,7 +33,7 @@ git fetch -p
 git branch -d <localbranch>
 
 git branch -r  
-git push -d origin <remotebranch>
+git push -d origin <remotebranch>  
 远程支线
 
 ### 大型文件处理
