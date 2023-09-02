@@ -26,6 +26,19 @@ Setting:
 git config --global user.name "[name]"  
 git config --global user.email "[email]"  
 
+### 部分常用指令
+git init：初始化一个新的 Git 仓库  
+git clone：克隆一个远程仓库  
+git add：将文件添加到暂存区  
+git commit：提交暂存区的更改  
+git pull：从远程仓库拉取代码  
+git push：将本地更改推送到远程仓库  
+git branch：查看、创建或删除分支  
+git checkout：切换到一个不同的分支或版本  
+git merge：合并两个或更多分支的代码  
+git status：查看仓库状态  
+git log：查看提交历史
+
 ### 删除指令
 git branch -a  
 git fetch -p
